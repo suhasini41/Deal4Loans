@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-05T22:26:13 CDT" name="Default suite" finished-at="2021-10-05T22:27:01 CDT" duration-ms="47922">
+    <groups>
+    </groups>
+    <test started-at="2021-10-05T22:26:13 CDT" name="Default test" finished-at="2021-10-05T22:27:01 CDT" duration-ms="47922">
+      <class name="com.deal4loans.qa.tests.HomePageTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.deal4loans.qa.tests.HomePageTest@6579c3d9]" started-at="2021-10-05T22:26:09 CDT" name="init" finished-at="2021-10-05T22:26:13 CDT" duration-ms="4049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testCase1()[pri:0, instance:com.deal4loans.qa.tests.HomePageTest@6579c3d9]" started-at="2021-10-05T22:26:13 CDT" name="testCase1" finished-at="2021-10-05T22:26:21 CDT" duration-ms="7825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method signature="columnCountTest()[pri:1, instance:com.deal4loans.qa.tests.HomePageTest@6579c3d9]" started-at="2021-10-05T22:26:21 CDT" name="columnCountTest" finished-at="2021-10-05T22:26:22 CDT" duration-ms="1464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- columnCountTest -->
+        <test-method signature="rowCountTest()[pri:1, instance:com.deal4loans.qa.tests.HomePageTest@6579c3d9]" started-at="2021-10-05T22:26:22 CDT" name="rowCountTest" finished-at="2021-10-05T22:26:22 CDT" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rowCountTest -->
+        <test-method signature="tableTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.deal4loans.qa.tests.HomePageTest@6579c3d9]" started-at="2021-10-05T22:26:22 CDT" name="tableTest" data-provider="readExcelData" finished-at="2021-10-05T22:26:28 CDT" duration-ms="5190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Banks]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rate of Interest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Processing Fee]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Loan Amount]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Prepayment Charges]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Disbursal Time]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Part Payment Option]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tableTest -->
+        <test-method signature="tableTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.deal4loans.qa.tests.HomePageTest@6579c3d9]" started-at="2021-10-05T22:26:28 CDT" name="tableTest" data-provider="readExcelData" finished-at="2021-10-05T22:26:31 CDT" duration-ms="3656" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yes Bank]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.45% - 16.99%]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Upto 2%]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Rs.100,000 - Rs.20,00,000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Nil Above 7.5Lacs]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[48 Working Hours]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tableTest -->
+        <test-method signature="tableTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.deal4loans.qa.tests.HomePageTest@6579c3d9]" started-at="2021-10-05T22:26:31 CDT" name="tableTest" data-provider="readExcelData" finished-at="2021-10-05T22:26:34 CDT" duration-ms="3019" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kotak Bank]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.50% - 16.99%]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.99% - 2.5%]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Rs.100,000 - Rs.20,00,000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Zero (if loan Amount is more than 10 lakhs) Else 5%]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[3 - 4 working days]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tableTest -->
+        <test-method signature="tableTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.deal4loans.qa.tests.HomePageTest@6579c3d9]" started-at="2021-10-05T22:26:34 CDT" name="tableTest" data-provider="readExcelData" finished-at="2021-10-05T22:26:37 CDT" duration-ms="2674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HDFC Bank]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.75% - 13.45%]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[upto 3999 + GST]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Min. 50,000 Max. as per eligibility]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Nil (For Loan amount>10 lakhs and 12 EMI paid), else 4%]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[3 - 4 Days]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tableTest -->
+        <test-method signature="tableTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.deal4loans.qa.tests.HomePageTest@6579c3d9]" started-at="2021-10-05T22:26:37 CDT" name="tableTest" data-provider="readExcelData" finished-at="2021-10-05T22:26:40 CDT" duration-ms="2531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ICICI Bank]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11% - 17.50%]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Rs.999 for Special offers otherwise 1% - 2.5%]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Rs.50,000 - Rs.20,00,000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Nil (For Loan amount >10 lacs & 12 EMI paid), else 5%]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[3 - 4 working days]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tableTest -->
+        <test-method signature="tableTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.deal4loans.qa.tests.HomePageTest@6579c3d9]" started-at="2021-10-05T22:26:40 CDT" name="tableTest" data-provider="readExcelData" finished-at="2021-10-05T22:26:42 CDT" duration-ms="2376" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Standard Chartered]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11.00% - 12.50%]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1%]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Rs.1,00,000 - Rs.50,00,000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Upto 5%]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[3-4 Working days]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tableTest -->
+        <test-method signature="tableTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.deal4loans.qa.tests.HomePageTest@6579c3d9]" started-at="2021-10-05T22:26:42 CDT" name="tableTest" data-provider="readExcelData" finished-at="2021-10-05T22:26:44 CDT" duration-ms="2470" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Citibank]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11.49% to 16.50%]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Upto 2.0% + 0.5% (waiver on PF)
+Special surprise gift from Citi Bank]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Rs.1,00,000 - Rs.30,00,000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Upto 3%]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[48 hours]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tableTest -->
+        <test-method signature="tableTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.deal4loans.qa.tests.HomePageTest@6579c3d9]" started-at="2021-10-05T22:26:44 CDT" name="tableTest" data-provider="readExcelData" finished-at="2021-10-05T22:26:47 CDT" duration-ms="2536" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bajaj Finance]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11.99% - 16%]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Upto 2%]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Upto Rs.25 Lacs]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Upto 4% post 1st EMI clearance]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Approval In 48 Hours]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tableTest -->
+        <test-method signature="tableTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.deal4loans.qa.tests.HomePageTest@6579c3d9]" started-at="2021-10-05T22:26:47 CDT" name="tableTest" data-provider="readExcelData" finished-at="2021-10-05T22:26:49 CDT" duration-ms="2375" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tata Capital]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11.99% - 17%]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Rs.999-2.50%]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Rs.75,000 - Rs.15 Lacs]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Part Prepayment Charges: Nil (Allowed Post 6 months, Once a year, 25% of Principal Outstanding)]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Loan disbursement in 3-4 days]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tableTest -->
+        <test-method signature="tableTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.deal4loans.qa.tests.HomePageTest@6579c3d9]" started-at="2021-10-05T22:26:49 CDT" name="tableTest" data-provider="readExcelData" finished-at="2021-10-05T22:26:52 CDT" duration-ms="2250" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Fullerton India]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11.99% - 26%]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2%]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Rs.50,000 - Rs.15,00,000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Upto 7.00%, 0% after 3 years]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2-8 days]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tableTest -->
+        <test-method signature="tableTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.deal4loans.qa.tests.HomePageTest@6579c3d9]" started-at="2021-10-05T22:26:52 CDT" name="tableTest" data-provider="readExcelData" finished-at="2021-10-05T22:26:54 CDT" duration-ms="2245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IndusInd Bank]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12.99% - 20%]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.5% -2%]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Rs.1,00,000 - Rs.25,00,000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[4%]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4 working days]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tableTest -->
+        <test-method signature="tableTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.deal4loans.qa.tests.HomePageTest@6579c3d9]" started-at="2021-10-05T22:26:54 CDT" name="tableTest" data-provider="readExcelData" finished-at="2021-10-05T22:26:56 CDT" duration-ms="2235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HDB Financial Services]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[16% - 21%]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[up to 2%]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Rs.100,000 to Rs.15,00,000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Nil for Selected Corporates Employees (CAT A & B).
+4% For Rest]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2 days - 7 days]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tableTest -->
+        <test-method signature="noLoanAmountAlertTest()[pri:2, instance:com.deal4loans.qa.tests.HomePageTest@6579c3d9]" started-at="2021-10-05T22:26:56 CDT" name="noLoanAmountAlertTest" finished-at="2021-10-05T22:26:56 CDT" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noLoanAmountAlertTest -->
+        <test-method signature="enterAmountTest()[pri:3, instance:com.deal4loans.qa.tests.HomePageTest@6579c3d9]" started-at="2021-10-05T22:26:56 CDT" name="enterAmountTest" finished-at="2021-10-05T22:26:59 CDT" duration-ms="2430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterAmountTest -->
+        <test-method signature="cityDropDownTest()[pri:4, instance:com.deal4loans.qa.tests.HomePageTest@6579c3d9]" started-at="2021-10-05T22:26:59 CDT" name="cityDropDownTest" finished-at="2021-10-05T22:26:59 CDT" duration-ms="816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cityDropDownTest -->
+        <test-method signature="employmentStatusDropDownTest(java.lang.String)[pri:4, instance:com.deal4loans.qa.tests.HomePageTest@6579c3d9]" started-at="2021-10-05T22:26:59 CDT" name="employmentStatusDropDownTest" data-provider="readDataEmploymentStatus" finished-at="2021-10-05T22:27:00 CDT" duration-ms="511" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Please Select]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employmentStatusDropDownTest -->
+        <test-method signature="employmentStatusDropDownTest(java.lang.String)[pri:4, instance:com.deal4loans.qa.tests.HomePageTest@6579c3d9]" started-at="2021-10-05T22:27:00 CDT" name="employmentStatusDropDownTest" data-provider="readDataEmploymentStatus" finished-at="2021-10-05T22:27:00 CDT" duration-ms="359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Salaried]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employmentStatusDropDownTest -->
+        <test-method signature="employmentStatusDropDownTest(java.lang.String)[pri:4, instance:com.deal4loans.qa.tests.HomePageTest@6579c3d9]" started-at="2021-10-05T22:27:00 CDT" name="employmentStatusDropDownTest" data-provider="readDataEmploymentStatus" finished-at="2021-10-05T22:27:01 CDT" duration-ms="340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Self Employed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employmentStatusDropDownTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.deal4loans.qa.tests.HomePageTest@6579c3d9]" started-at="2021-10-05T22:27:01 CDT" name="tearDown" finished-at="2021-10-05T22:27:03 CDT" duration-ms="1749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.deal4loans.qa.tests.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
